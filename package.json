@@ -1,0 +1,22 @@
+{
+  "name": "phantom-html5up",
+  "version": "1.0.0",
+  "description": "Phantom template by HTML5 UP",
+  "main": "index.html",
+  "scripts": {
+    "build": "sass assets/sass/main.scss assets/css/main.css && sass assets/sass/noscript.scss assets/css/noscript.css",
+    "watch": "sass --watch assets/sass/main.scss:assets/css/main.css assets/sass/noscript.scss:assets/css/noscript.css",
+    "dev": "sass --watch assets/sass/main.scss:assets/css/main.css assets/sass/noscript.scss:assets/css/noscript.css"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "responsive",
+    "template"
+  ],
+  "author": "HTML5 UP",
+  "license": "CCA-3.0"
+}
